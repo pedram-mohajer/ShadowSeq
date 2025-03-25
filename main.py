@@ -35,7 +35,7 @@ def main(
     dataset = GTSRBSequenceDataset(csv_path, image_folder)
     print(f"\n Loaded GTSRB with {len(dataset.sequences)} sequences.\n")
 
-    train_set, test_set = dataset.split_train_test(train_count=1250)
+    train_set, test_set = dataset.split_train_test(train_count=1106)
     print("Train sequences:", len(train_set))
     print("Test sequences:", len(test_set))
     dataset = test_set  
@@ -80,9 +80,7 @@ def main(
 
     )
 
-    cnt=0
     for sample in tqdm(dataset, desc="Running GA attacks on sequences"):
-        print("----------------------------------------------------------------------------------->cnt: ", cnt)
         rgb_images = sample['rgb']
         filenames = sample['filenames']
         seq_id = sample['sequenceId']
