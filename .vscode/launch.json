@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Shadow Attack Optimizer",
+        "type": "python",
+        "request": "launch",
+        "program": "/scratch/pmohaje/ShadowGenerator/main.py",
+        "console": "integratedTerminal",
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}"
+        },
+        "python": "/scratch/pmohaje/conda/yolov11/bin/python"
+      }
+    ]
+  }
+  
