@@ -33,7 +33,7 @@ This project introduces a **non-differentiable adversarial shadow attack** desig
 
 ### 🖼️ Adversarial Shadow Sequence Example
 
-Below is a sample adversarial sequence from the GTSRB dataset. All 30 frames were perturbed using the same shadow mask with temporal scaling. **29 out of 30 frames were misclassified as class `7` (100 km/h speed limit), while the true label is class `8` (70 km/h speed limit).**
+Below is a sample adversarial sequence from the GTSRB dataset. All 30 frames were perturbed using the same shadow mask with temporal scaling. **29 out of 30 frames were misclassified as class `7` (100 km/h speed limit), while the true label is class `4` (70 km/h speed limit).**
 
 <figure>
   <p align="center">
