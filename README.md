@@ -1,6 +1,8 @@
-# Adversarial Shadow Attack on Traffic Sign Sequences
+# Attention-Aware Temporal Adversarial Shadows on Traffic Sign Sequences (Adversarial Shadow Attack on Traffic Sign Sequences)
 
-This project introduces a **non-differentiable adversarial shadow attack** designed to target **traffic sign recognition models** over entire **image sequences**. Leveraging a **Genetic Algorithm (GA)**, the attack strategically overlays realistic shadow patterns that evolve over time—mimicking the appearance of cast shadows in dynamic driving scenarios.
+This project introduces a **non-differentiable adversarial shadow attack** designed to target **traffic sign recognition models** over entire **image sequences**. Leveraging a **Genetic Algorithm (GA)**, the attack strategically overlays realistic shadow patterns that evolve over time—mimicking the appearance of cast shadows in dynamic driving scenarios.  
+This work was published as a long paper at the [5th Workshop on Adversarial Machine Learning (AdvML) at CVPR 2025](https://cvpr25-advml.github.io/long_paper/32_Attention_Aware_Temporal_A.pdf).
+
 
 ### 🔍 Key Features
 
